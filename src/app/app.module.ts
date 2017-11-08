@@ -10,6 +10,7 @@ import { IngredientsRowComponent } from './ingredients-row/ingredients-row.compo
 import { RecipeImageComponent } from './recipe-image/recipe-image.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { IngredientsListComponent } from './ingredients-list/ingredients-list.component';
+import { RecipePageComponent } from './recipe-page/recipe-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { IngredientsListComponent } from './ingredients-list/ingredients-list.co
     IngredientsRowComponent,
     RecipeImageComponent,
     RecipeListComponent,
-    IngredientsListComponent
+    IngredientsListComponent,
+    RecipePageComponent
   ],
   imports: [
     BrowserModule
