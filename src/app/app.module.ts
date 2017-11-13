@@ -12,6 +12,11 @@ import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { IngredientsListComponent } from './ingredients-list/ingredients-list.component';
 import { RecipePageComponent } from './recipe-page/recipe-page.component';
 
+
+//Angular Materials 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule } from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +31,13 @@ import { RecipePageComponent } from './recipe-page/recipe-page.component';
     RecipePageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
