@@ -17,12 +17,13 @@ export class HomepageComponent {
   stateCtrl: FormControl;
   filteredStates: Observable<any[]>;
 
-/*   myControl: FormControl = new FormControl();
+   myControl: FormControl = new FormControl();
   
     options = [
-      'One',
-      'Two',
-      'Three'
+      'Indian',
+      'American',
+      'Chinese',
+      'Greek',
     ];
   
     filteredOptions: Observable<string[]>;
@@ -36,7 +37,7 @@ export class HomepageComponent {
       filter(val: string): string[] {
         return this.options.filter(option =>
           option.toLowerCase().indexOf(val.toLowerCase()) === 0);
-     } */
+     } 
 
      
   constructor(private http:Http){
