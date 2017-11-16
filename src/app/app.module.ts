@@ -54,7 +54,9 @@ import {
 } from '@angular/material';
 import {CdkTableModule} from '@angular/cdk/table';
 
-import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/map';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component'
 
 @NgModule({
   exports: [
@@ -90,7 +92,8 @@ import 'rxjs/add/operator/map'
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-  ]
+  ],
+  declarations: [LoginComponent, RegisterComponent]
 })
 export class PlunkerMaterialModule {}
 
